@@ -25,7 +25,6 @@
 }
 
 /* Backgrounds & colored buttons */
-
 .bg-primary,
 .btn-primary {
   background: var(--primary-color);
@@ -48,6 +47,15 @@
 .btn-light {
   background: var(--light-color);
   color: #333;
+}
+
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a {
+  color: #fff;
 }
 
 .btn-outline {
@@ -102,6 +110,10 @@
 
 .grid-3 {
   grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-7 {
+  grid-template-columns: repeat(7, 1fr);
 }
 
 /* Margin */

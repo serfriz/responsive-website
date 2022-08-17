@@ -67,6 +67,45 @@
   transform: scale(.98);
 }
 
+/* Text colors */
+.text-primary {
+  color: #333;
+}
+
+.text-secondary {
+  color: #333
+}
+
+.text-dark {
+  color: #333;
+}
+
+.text-light {
+  color: #fff;
+}
+
+/* Alerts */
+.alert {
+  background-color: var(--light-color);
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15x 0;
+}
+
+.alert i {
+  margin-right: 10px;
+}
+
+.alert-success {
+  background-color: var(--success-color);
+  color: #fff;
+}
+
+.alert-error {
+  background-color: var(--error-color);
+  color: #fff;
+}
+
 /* Text sizes */
 .lead {
   font-size: 20px;

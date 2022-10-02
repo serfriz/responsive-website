@@ -1,2 +1,2 @@
-# responsive-website
-Responsive Website using HTML and CSS (Grid, Flexbox).
+# Responsive Website
+Responsive website using HTML and CSS (Grid, Flexbox).
